@@ -1,4 +1,8 @@
 import os
+import streamlit as st
+
+# Mẹo nhỏ: Cấu hình trang hiển thị dạng rộng để khi vào Canva không bị bóp nghẹt giao diện
+st.set_page_config(layout="wide")
 from pyngrok import ngrok
 
 # ÉP HỆ THỐNG TẮT SẠCH CÁC KẾT NỐI CŨ ĐANG BỊ LỖI
